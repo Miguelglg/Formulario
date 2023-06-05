@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulário</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="js/index.js"  defer> </script>
+</head>
+<body>
+ <div class="container">
+    
+    <h1>formulário de cadastro</h1> <br>
+    <form id="form">
+        <label for="name">Nome Completo:</label>
+        <input type="text" id="name">
+
+        <label for="idade">Idade:</label>
+        <input type="number" id="idade">
+
+        <label for="number">Número de contato:</label>
+        <input type="text" id="number">
+    
+        <label for="email">E-mail:</label>
+        <input type="email" id="email">
+
+        <label for="password">Senha:</label>
+        <input type="password" id="password">
+
+        <label for="job">Minha Disponibilidade: <br> ( Início imediato ) </label>
+        <select name="job" id="job">
+            <option value="yes">selecione um opção</option>
+            <option value="yes">Freelancer</option>
+            <option value="yes">PJ </option>
+            <option value="yes">CLT</option>
+            <option value="yes">Estágio</option>
+        </select>
+
+        <label for="message">Mensagem: <br> <br>( Seu feedback é muito importante para mim ! ) </label> 
+        <textarea name="message" id="message" > </textarea>
+    
+        <button type="submit"> Salvar informações </button>
+    </form>
+
+    
+ </div><!--container-->
+    
+</body>
+</html>
