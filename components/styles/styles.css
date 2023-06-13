@@ -28,7 +28,6 @@ h1{
     position: absolute;
     margin-left: 22%;
     width: 800px;
-
     background-color: #0f1417;
     text-align: start;
     border-radius: 30px;
@@ -79,7 +78,7 @@ button:hover{
  
 }
 
-@media (max-width:768px) {
+@media (min-width:768px) {
     .container{
         width: 90%;
         margin-left: 5px;
@@ -92,3 +91,13 @@ button:hover{
     
 }
 
+@media (max-width: 480px){
+    .container{
+        width: 90%;
+        margin-left: 5px;
+    }
+
+    #form{
+        width: 80%;
+    }
+}
